@@ -1,0 +1,77 @@
+{
+  "boxs": [
+    {
+      "id": 1,
+      "image": "./Images/s2-box1-img.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 2,
+      "image": "./Images/s2-box2-img.webp",
+      "name": "Web Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 3,
+      "image": "./Images/s2-box3-img.webp",
+      "name": "Share Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 4,
+      "image": "./Images/s2-box4-img.webp",
+      "name": "VPS Server",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 5,
+      "image": "./Images/s2-box5-img.webp",
+      "name": "WHCMS",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 6,
+      "image": "./Images/s2-box6-img.webp",
+      "name": "24/7 Support",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 7,
+      "image": "./Images/s2-box7-img.webp",
+      "name": "Windows Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 8,
+      "image": "./Images/s2-box8-img.webp",
+      "name": "Database Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 9,
+      "image": "./Images/s2-box4-img.webp",
+      "name": "New Card 1",
+      "description": "Note: Increased by Load more"
+    },
+    {
+      "id": 10,
+      "image": "./Images/s2-box3-img.webp",
+      "name": "New Card 2",
+      "description": "Note: Increased by Load more"
+    },
+    {
+      "id": 11,
+      "image": "./Images/s2-box5-img.webp",
+      "name": "New Card 3",
+      "description": "Note: Increased by Load more"
+    },
+    {
+      "id": 12,
+      "image": "./Images/s2-box1-img.webp",
+      "name": "New Card 4",
+      "description": "Note: Increased by Load more"
+    }
+  ],
+  "favorites": []
+}

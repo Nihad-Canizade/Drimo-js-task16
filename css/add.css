@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(53, 215, 255);
+}
+
+
+/* Section */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .form {
+    width: 300px;
+    height: 250px;
+    margin-top: 12rem;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+}
+
+.form-p1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.form-input {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.form-p2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form-input1 {
+    margin-top: 2px;
+    margin-left: 10px;
+    padding: 5px 20px 5px 8px;
+    width: 90%;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.form-p3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form-input2 {
+    margin-top: 2px;
+    margin-left: 10px;
+    padding: 5px 20px 5px 8px;
+    width: 90%;
+    border: 1px solid rgb(160, 160, 160)
+}
+
+.form-btn {
+    margin-top: 1rem;
+    margin-left: 10px;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(83, 83, 255);
+    border: 1px solid rgb(83, 83, 255);
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+    background-color: rgb(76, 76, 250);
+    border: 1px solid rgb(76, 76, 250);
+}
+
+.form-btn:active {
+    background-color: rgb(53, 53, 252);
+    border: 1px solid rgb(53, 53, 252);
+}

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 32px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: #7DB9E8;
+    transition: 0.3s;
+}
+
+/* Section 1 */
+section{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: lightcoral;
+}
+
+.sec-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sec-h1{
+    font-size: 40px;
+    margin-bottom: 2rem;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 10px red;
+}
+
+.sec-boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.sec-box{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 10px;
+    background-color: #F9FaFF;
+    position: relative;
+}
+
+.sec-box .bi-heart-fill{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+    color: red;
+}
+
+.sec-box-p1{
+    color: #424242;
+    font-size: 18px;
+    padding: 25px 0px 18px;
+    font-weight: 500;
+}
+
+.sec-box-p2{
+    color: #6B6D6F;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+/* Remove Favorite Button */
+.rmv-fav-btn{
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 400;
+}
+
+.rmv-fav-btn:hover{
+    cursor: pointer;
+    background-color: rgb(212, 5, 5);
+    transition: .3s;
+}
+
+.rmv-fav-btn:active{
+    background-color: darkred;
+}
+
+
+/* Footer */
+.footer{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #F9FaFF;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer-p1{
+    color: #6B6D6F;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .32px;
+    font-family: sans-serif;
+}
+
+.footer-p1-span{
+    color: #337AB7;
+}
+
+.footer-p1-span:hover{
+    cursor: pointer;
+    color: #005197;
+}

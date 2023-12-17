@@ -11,16 +11,18 @@
 
 <body>
     <section>
-        <div class="form">
-            <p class="form-p1">Image:</p>
-            <input type="file" class="form-input">
-            <p class="form-p2">Name:</p>
-            <input type="text" class="form-input1">
-            <p class="form-p3">Category:</p>
-            <input type="text" class="form-input2">
-            <button class="form-btn">Submit</button>
-        </div>
+        <form><br>
+            <label class="label-img">Image:</label>
+            <input type="file" class="form-img" required><br><br>
+            <label class="label-name">Name:</label>
+            <input type="text" class="form-name" required><br><br>
+            <label class="label-description">Description:</label>
+            <input type="text" class="form-description" required>
+            <input type="submit" class="submit-input">
+        </form>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/add.js"></script>
 </body>
 
 </html>

@@ -5,7 +5,11 @@
 }
 
 body {
-    background-color: rgb(53, 215, 255);
+    background-image: url(/Images/update-bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 
@@ -14,26 +18,43 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    margin-top: 3rem;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 12px white;
 }
 
 form {
-    width: 300px;
-    height: 280px;
-    margin-top: 12rem;
-    background-color: white;
-    box-shadow: 0px 0px 15px black;
+    width: 400px;
+    padding: 30px 10px;
+    margin-top: 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
-.label-img {
-    margin-left: 10px;
+.id-img {
+    width: 100px;
+    height: auto;
+    margin: 8px 7px;
+}
+
+label {
+    margin: 10px 0px 3px 10px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .form-img {
     margin-top: 5px;
-    margin-left: 10px;
-}
-
-.label-name {
     margin-left: 10px;
 }
 
@@ -45,9 +66,6 @@ form {
     border: 1px solid rgb(160, 160, 160);
 }
 
-.label-description {
-    margin-left: 10px;
-}
 
 .form-description {
     margin-top: 2px;
@@ -57,7 +75,7 @@ form {
     border: 1px solid rgb(160, 160, 160)
 }
 
-.submit-input {
+#submit {
     margin-top: 1rem;
     margin-left: 10px;
     width: 90%;
@@ -69,13 +87,13 @@ form {
     color: white;
 }
 
-.submit-input:hover {
+#submit:hover {
     cursor: pointer;
     background-color: rgb(76, 76, 250);
     border: 1px solid rgb(76, 76, 250);
 }
 
-.submit-input:active {
+#submit:active {
     background-color: rgb(53, 53, 252);
     border: 1px solid rgb(53, 53, 252);
 }
